@@ -1,0 +1,21 @@
+ Desenho da Arquitetura
+A arquitetura será baseada em contêineres, com dois serviços principais: a API e o Banco de Dados, orquestrados pelo Docker Compose.
+
++-------------------------------------------------------------+
+|                        Máquina Host (Docker)                |
+|                                                             |
+|   +--------------------------+      +---------------------+ |
+|   |      API Container       |      |  Database (DB)      | |
+|   |    (Python / FastAPI)    |      |      Container      | |
+|   |--------------------------|      |    (PostgreSQL)     | |
+|   | - CPU: 0.5 cores         |<---->| - CPU: 0.5 cores    | |
+|   | - Memória: 512MB         |      | - Memória: 512MB    | |
+|   +--------------------------+      +---------------------+ |
+|              ^                                              |
++--------------|----------------------------------------------+
+               |
+               | Requisições HTTP (Cliente, Postman, Frontend)
+               v
+         +-----------+
+         |  Usuário  |
+         +-----------+
