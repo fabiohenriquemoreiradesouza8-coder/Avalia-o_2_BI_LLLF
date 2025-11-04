@@ -1,9 +1,9 @@
-# Cade meu medica
+# Cade meu medico
 
 - Lucas Turini Soares
 - Lucas Castro
 - Leonardo Silva
-- Fabio Henrrique
+- Fabio Henrique Moreira
 
 
 
