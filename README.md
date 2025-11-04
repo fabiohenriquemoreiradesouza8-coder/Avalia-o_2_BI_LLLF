@@ -1,4 +1,4 @@
-# Cade meu medica
+# Cade meu medico
 
 - Lucas Turini Soares
 - Lucas Castro
