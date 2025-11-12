@@ -3,7 +3,7 @@
 - Lucas Turini Soares
 - Lucas Castro
 - Leonardo Silva
-- Fabio Henrrique
+- Fabio Henrique
 
 
 
